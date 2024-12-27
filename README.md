@@ -9,3 +9,9 @@ https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freebor
 
 #for theory knowledge of python list, loops
 https://developers.google.com/edu/python/lists#for-and-in
+
+
+
+
+#random — Generate pseudo-random numbers
+https://docs.python.org/3/library/random.html
