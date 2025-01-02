@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Grading Program
 
 #You have access to a database of student_scores in the format of a dictionary. The keys in student_scores are the names of the students and the values are their exam scores. 
@@ -16,4 +17,24 @@
 
 #- Scores 71 - 80: Grade = "Acceptable" 
 
+=======
+# Grading Program
+
+#You have access to a database of student_scores in the format of a dictionary. The keys in student_scores are the names of the students and the values are their exam scores. 
+
+#Write a program that converts their scores to grades.
+
+#By the end of your program, you should have a new dictionary called student_grades that should contain student names as keys and their assessed grades for values. 
+
+#The final version of the student_grades dictionary will be checked.  
+
+#This is the scoring criteria: 
+
+#- Scores 91 - 100: Grade = "Outstanding" 
+
+#- Scores 81 - 90: Grade = "Exceeds Expectations" 
+
+#- Scores 71 - 80: Grade = "Acceptable" 
+
+>>>>>>> 15025402e06e9348e7caaa5e700f76d9cb0f72e8
 #- Scores 70 or lower: Grade = "Fail" 
