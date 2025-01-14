@@ -1,16 +1,17 @@
 import tkinter
 
-from PIL.ImageOps import expand, autocontrast
-
 window = tkinter.Tk()
 
 window.title("My first tkinter program")
 window.minsize(width=500,height=500)
+# to add padding
+window.config(padx=20,pady=20)
+
 
 # Label
 label = tkinter.Label(window, text="This is label", font=("Arial", 20,"bold "))
 # label.pack(expand=True)
-label.pack()
+label.grid(column = 0, row = 0)
 
 
 # new text
@@ -33,14 +34,18 @@ def button_click():
 
 
 # entry
-entry = tkinter.Entry(width= 70)
-entry.pack()
+entry = tkinter.Entry(width= 10)
+entry.grid(column = 3, row = 2)
 
 def get_text():
     text = entry.get()
     print(text)
     label.config(text=text)
 button = tkinter.Button(text= "Click Me", command=get_text)
-button.pack()
+button.grid(column = 1, row = 1)
+
+
+new_button = tkinter.Button(text="new button")
+new_button.grid(column = 2, row = 0)
 
 window.mainloop()
