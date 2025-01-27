@@ -1,6 +1,6 @@
 # import smtplib
 #
-# my_gmail = "kazim.shaikh0@gmail.com"
+# my_gmail = "kazimshaikh210342@acropolis.in"
 # password = "urnd cnvb ygsh movj"
 #
 # with smtplib.SMTP("smtp.gmail.com") as connection:
